@@ -4,12 +4,12 @@ public class Reduce {
     private int[] array;
 
     public void to(int[] array) {
-        array = array;
+        this.array = array;
     }
 
     public void print() {
-        for (int index = 0; index < array.length; index++) {
-            System.out.println(array[index]);
+        for (int i : array) {
+            System.out.println(i);
         }
     }
 
