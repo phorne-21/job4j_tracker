@@ -1,14 +1,17 @@
 package ru.job4j.oop;
 
 public class Programmer extends Engineer{
-    private String programmingLanguage;
+    private String prLang;
 
-    public Programmer(String name, String surname, String education, String birthday, boolean createsEngineeringSolutions, String programmingLanguage) {
-        super(name, surname, education, birthday, createsEngineeringSolutions);
-        this.programmingLanguage = programmingLanguage;
+    public Programmer() {
     }
 
-    public String getProgrammingLanguage() {
-        return this.programmingLanguage;
+    public Programmer(String name, String surname, String education, String birthday, String specificity, String prLang) {
+        super(name, surname, education, birthday, specificity);
+        this.prLang = prLang;
+    }
+
+    public String getPrLang() {
+        return this.prLang;
     }
 }
