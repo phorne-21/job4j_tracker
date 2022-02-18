@@ -33,7 +33,7 @@ public class Tracker {
         return index != -1 ? items[index] : null;
     }
 
-    private int indexOf (int id) {
+    private int indexOf(int id) {
         for (int index = 0; index < size; index++) {
             if (items[index].getId() == id) {
                 return index;
