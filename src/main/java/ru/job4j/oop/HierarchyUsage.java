@@ -13,8 +13,8 @@ public class HierarchyUsage {
         /* Приведение типа за счет понижения по иерархии - down casting */
         Car carFromObj = (Car) ocar;
 
-        /* Ошибка в приведении типа. */
-        Object bicycle = new Bicycle();
-        Car cb = (Car) bicycle; // код завершится с ошибкой приведения типов ClassCastException
+//        /* Ошибка в приведении типа. */
+//        Object bicycle = new Bicycle();
+//        Car cb = (Car) bicycle; // код завершится с ошибкой приведения типов ClassCastException
     }
 }
